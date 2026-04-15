@@ -1,0 +1,22 @@
+BELAGUEST - COMANDOS RAPIDOS
+
+1) Entrar na pasta do projeto
+cd /workspaces/BellaGuestV1_apresenta-o-/BellaGuestV1/belaguest
+
+2) Preparar variaveis de ambiente (executar uma vez)
+cp -n .env.example .env
+
+3) Subir API + Banco (Docker)
+docker compose up --build -d
+
+4) Abrir no navegador
+http://localhost:3000
+
+5) Ver logs (opcional)
+docker compose logs -f
+
+6) Parar tudo
+docker compose down
+
+COMANDO UNICO (faz tudo de uma vez)
+cd /workspaces/BellaGuestV1_apresenta-o-/BellaGuestV1/belaguest && cp -n .env.example .env && docker compose up --build -d

@@ -1,0 +1,13 @@
+BelaGuest - Credenciais para Demonstração
+
+ADMINISTRADOR
+Email: admin@belaguest.com
+Senha: 123456
+
+CLIENTE
+Email: cliente@belaguest.com
+Senha: 123456
+
+FUNCIONARIO
+Email: funcionaria@belaguest.com
+Senha: 123456
